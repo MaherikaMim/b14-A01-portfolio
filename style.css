@@ -30,10 +30,52 @@ button{
     text-align: center;
 
 }
-h1{
+.first{
     font-size: 50px;
 }
 .hero-btn{
        margin-top: 200px;
 
+}
+h1{
+     text-align: center;
+}
+.speakers{
+    text-align: center;
+    padding: 80px 100px;
+}
+
+.speaker{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.demis{
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+ 
+   
+}
+
+.demis img{
+    width: 100%;
+    height: 50%;
+   
+}
+
+.ai{
+    color: blue;
+}
+
+
+
+.demis p:last-child{
+    color: gray;
+    font-size: 15px;
 }

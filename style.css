@@ -1,0 +1,21 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+
+}       
+.bar{
+    display: flex;
+    gap: 30px;
+}  
+button{
+
+    width: 130px;
+    height: 40px;
+    background-color: blue;
+    color: lavenderblush;
+    border-radius: 10px;
+   
+}
+.banner{
+
+}

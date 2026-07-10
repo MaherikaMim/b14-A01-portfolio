@@ -16,6 +16,24 @@ button{
     border-radius: 10px;
    
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("./images/assets/banner.jpg");
+    color: ghostwhite;
+    height: 500px;
+ 
+}
 .banner{
+    width: 500px;
+    text-align: center;
+
+}
+h1{
+    font-size: 50px;
+}
+.hero-btn{
+       margin-top: 200px;
 
 }

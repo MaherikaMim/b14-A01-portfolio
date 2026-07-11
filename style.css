@@ -14,6 +14,7 @@ button{
     background-color: blue;
     color: lavenderblush;
     border-radius: 10px;
+  
    
 }
 .hero{
@@ -39,20 +40,24 @@ button{
 }
 h1{
      text-align: center;
+     margin-top: 30px;
+     font-size: 50px;
+}
+nav{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.meet{
+    font-size: 40px;
 }
 
 
-
-.speakers{
-
-    padding:0px ;
-}
 
 .speaker{
     display:flex;
     justify-content: center;
     gap: 20px;
- margin-top: 80px;
+ 
     padding: 0%;
 }
 .they{
@@ -69,7 +74,10 @@ h1{
     color: blue;
 }
 
-
+.subtitle{
+    text-align: center;
+}
+    
 
 .speaker p:last-child{
     color: gray;
@@ -80,3 +88,103 @@ h1{
     font-size: 15px;
 
 }
+
+
+body{
+    background: white;
+    margin: 0;
+   
+}
+
+.pricing{
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.pricing h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    gap: 30px;
+   
+}
+
+.card{
+    width: 340px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    text-align: left;
+}
+
+.active{
+    background: #09122f;
+    color: #fff;
+    border: none;
+}
+
+.plan{
+    color:black;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.plann{
+    color:white;
+}
+
+.card h2{
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+.person{
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.active .person{
+    color: #ccc;
+}
+
+hr{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.active hr{
+    border-color: #444;
+}
+
+
+.light-btn{
+    width: 350px;
+    background: #fff;
+    border: 2px solid #ccc;
+    color: #2563eb;
+}
+
+.blue-btn{
+    width: 350px;
+    background: #2563eb;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+
+

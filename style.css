@@ -40,34 +40,30 @@ button{
 h1{
      text-align: center;
 }
+
+
+
 .speakers{
-    text-align: center;
-    padding: 80px 100px;
+
+    padding:0px ;
 }
 
 .speaker{
-    display: flex;
+    display:flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+    gap: 20px;
+ margin-top: 80px;
+    padding: 0%;
+}
+.they{
+        display:flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+
 }
 
-.demis{
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    width: 250px;
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
- 
-   
-}
 
-.demis img{
-    width: 100%;
-    height: 50%;
-   
-}
 
 .ai{
     color: blue;
@@ -75,7 +71,12 @@ h1{
 
 
 
-.demis p:last-child{
+.speaker p:last-child{
     color: gray;
     font-size: 15px;
+}
+.they p:last-child{
+    color: gray;
+    font-size: 15px;
+
 }
